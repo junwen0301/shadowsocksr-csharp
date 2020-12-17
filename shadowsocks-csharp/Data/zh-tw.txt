@@ -1,0 +1,245 @@
+# translation for Simplified Chinese
+
+Shadowsocks=Shadowsocks
+
+# Menu items
+
+Mode=常規代理模式(翻墻專用)
+No modify system proxy=保持當前狀態不修改
+Disable system proxy=直連模式(關閉代理)
+PAC=只代理被墻網站
+GlobalForeign=代理國外所有IP
+Global=代理國外所有IP
+Back=國外翻回國內
+Proxy rule=特殊代理规则(翻回國專用)
+Bypass LAN=繞過局域網
+Bypass LAN && China=不代理大陸IP(翻墻模式)
+Bypass LAN && not China=只代理大陸IP(從國外翻回國)
+User custom=用戶自定義
+Disable bypass=全局代理(代理國內外所有IP)
+Servers=切換服務器節點
+Edit servers...=編輯服務器...
+Import servers from file...=從文件導入服務器...
+Servers Subscribe=服務器訂閱
+Subscribe setting...=添加服務器訂閱...
+Update subscribe SSR node=更新訂閱
+Update subscribe SSR node(bypass proxy)=不通過代理更新訂閱(更新失敗時點此)
+Global settings...=選項設置...
+Start on Boot=開機啟動
+Allow Clients from LAN=允許來自局域網的連接
+Load balance=開啟負載均衡(不推薦)
+Same host for same address=相同節點連接同壹地址(務必勾選上)
+Enable domain white list(http proxy only)=使用域名白名單(僅http代理)
+Update local PAC from Lan IP list=更新PAC為繞過局域網IP
+Update local PAC from Chn White list=更新PAC為繞過大陸常見域名列表
+Update local PAC from Chn IP list=更新PAC為繞過大陸IP(慎用)
+Update local PAC from GFWList=更新PAC為GFWList
+Update local PAC from Chn Only list=更新PAC為僅通過大陸常見域名（國外訪問大陸）
+Copy PAC URL=復制 PAC URL
+Edit local PAC file...=編輯本地 PAC 文件...
+Edit user rule for GFWList...=編輯 GFWList 的用戶規則...
+Show QRCode...=顯示二維碼...
+Scan QRCode from screen...=二維碼掃描...
+Import SSR links from clipboard...=剪貼板批量導入ssr://鏈接...
+Port settings...=端口設置...
+Server statistic...=查看連接狀態(流量和故障排查)...
+Disconnect current=斷開當前所有連接
+New version {0} {1} available=【點擊下載新版本 {0} {1}】
+Help=幫助
+Check update=檢查更新
+Show logs...=顯示日誌...
+Open wiki...=打開Wiki文檔...
+Feedback...=問題反饋...
+Gen custom QRCode...=自定義生成二維碼
+Reset password...=設置客戶端密碼...
+Purchase...=付費SSR賬號購買
+About...=關於(本客戶端基於ShadowsocksR修改)...
+Donate...=捐助...
+Quit=退出
+Edit Servers=編輯服務器
+Global Settings=選項設置
+Unusual function=不常用功能
+
+# Config Form
+
+&Add=添加(&A)
+&Delete=刪除(&D)
+Up=上移
+Down=下移
+
+New server=未配置的服務器
+
+Server=服務器(點名稱可切換節點)
+Server IP=服務器 IP
+Server Port=服務器端口
+UDP Port=UDP端口
+Password=密碼
+Encryption=加密
+Remarks=備註
+
+Adv. Setting=高級選項
+Obfs UDP=混淆UDP協議
+NOT all server support belows=以下選項不是所有服務端都支持
+TCP over TCP if not checked=不打鉤使用原生 TCP(暫不能用)
+UDP over UDP if not checked=不打鉤使用原生 UDP
+Recommend checked=保留功能
+Protocol=協議
+Protocol param=協議參數
+Obfs=混淆
+Obfs param=混淆參數
+SSR Link=SSR鏈接
+Original=原版
+Verify all=校驗所有數據
+
+Balance=負載均衡
+Order=按次序
+Random=隨機
+LowLatency=低延遲優先
+LowException=低錯誤優先
+SelectedFirst=選中優先
+Timer=定時切換
+Balance in group=所選組切換
+AutoBan=自動禁用出錯服務器
+
+Remote proxy=二級（前置）代理
+Proxy On=開啟代理
+PAC "direct" return this proxy=PAC“直連”使用二級代理
+Socks5(support UDP)=Socks5(支持UDP)
+Http tunnel=Http隧道
+TCP Port tunnel=TCP端口轉發(需要相關混淆插件)
+Username=用戶名
+
+Local proxy=本地代理
+Build-in http proxy=內置http代理(目前有bug)
+Proxy Port=本地端口
+Reconnect Times=重連次數
+ Timeout=連接超時
+TTL=空閑斷開秒數
+
+OK=確定
+Cancel=取消
+
+# ServerLog Form
+
+ServerLog=服務器記錄
+&Control=操作(&C)
+&Disconnect direct connections=斷開直連連接(&D)
+Disconnect &All=斷開當前所有連接(&A)
+Clear &MaxSpeed=重置歷史最高(&M)
+&Clear=清空(&C)
+Clear &Selected Total=清空選中節點歷史流量(&S)
+Clear &Total=清空所有歷史流量(&T)
+Port &out=導出(&O)
+Copy current link=復制選中鏈接
+Copy current group links=復制選中組鏈接
+Copy all enable links=復制所有開啟節點鏈接
+Copy all links=復制所有節點鏈接
+&Window=窗口(&W)
+Auto &size=自動調整大小(&S)
+Always On &Top=窗口置頂(&T)
+Total Connect=總連接
+Enable=開關
+Connecting=連接
+Latency=延遲(不精准)
+Avg DSpeed=下載
+Max DSpeed=最高
+Avg UpSpeed=上傳
+Max UpSpeed=最高
+Upload=總上傳
+Dload=總下載
+DloadRaw=實下載
+Error=錯誤
+Timeout=超時
+Empty Response=空連
+Error Percent=出錯比例
+Continuous=連錯
+Version=版本
+
+# Global Log Form
+
+&File=文件(&F)
+Clear &log=清空日誌(&L)
+Show in &Explorer=在資源管理器中顯示(&E)
+&Close=關閉(&C)
+&View=視圖(&V)
+&Font...=字體設置(&F)...
+&Wrap Text=自動換行(&W)
+&Always on top=置於頂層(&A)
+Log Viewer=日誌查看器
+
+# QRCode Form
+
+QRCode=二維碼
+
+# PAC Url Form
+
+Edit Online PAC URL=編輯在線 PAC 網址
+Edit Online PAC URL...=編輯在線 PAC 網址...
+Please input PAC Url=請輸入 PAC 網址
+
+# InputPassword Form
+
+InputPassword=輸入密碼
+Parse gui-config.json error, maybe require password to decrypt=解析 gui-config.json 出錯, 可能需要密碼解密
+
+# ResetPassword Form
+
+ResetPassword=重置密碼
+
+# PortSettingsForm Form
+
+Port Settings=端口設置
+Map Setting=映射設置
+Type=類型
+Server ID=服務器 ID
+Target Addr=目標地址
+Target Port=目標端口
+Local Port=本地端口
+Port Forward=端口轉發
+Force Proxy=強制代理
+Proxy With Rule=規則代理
+#Enable=
+#Remarks=
+#OK=
+#Cancel=
+#&Add=
+#&Delete=
+
+# SubscribeForm Form
+
+Subscribe Settings=訂閱設置
+URL=網址
+Group name=組名
+Auto update=自動更新
+
+# Messages
+
+Shadowsocks Error: {0}=Shadowsocks 錯誤: {0}
+Port already in use=端口已被占用
+Illegal port number format=非法端口格式
+Please add at least one server=請添加至少壹個服務器
+Server IP can not be blank=服務器 IP 不能為空
+Password can not be blank=密碼不能為空
+Port out of range=端口超出範圍
+{0} {1} Update Found={0} {1} 更新
+Click menu to download=點擊菜單項下載
+ShadowsocksR is here=ShadowsocksR 在這裏
+You can turn on/off ShadowsocksR in the context menu=可以在右鍵菜單中開關 ShadowsocksR
+System Proxy Enabled=系統代理已啟用
+System Proxy Disabled=系統代理未啟用
+Failed to update PAC file =更新 PAC 文件失敗
+PAC updated=更新 PAC 成功
+Domain white list list updated=更新域名白名單成功
+No updates found. Please report to GFWList if you have problems with it.=未發現更新。如有問題請提交給 GFWList。
+No QRCode found. Try to zoom in or move it to the center of the screen.=未發現二維碼，嘗試把它放大或移動到靠近屏幕中間的位置
+ShadowsocksR is already running.=ShadowsocksR 已經在運行。
+Find Shadowsocks icon in your notify tray.=請在任務欄裏尋找 ShadowsocksR 圖標。
+If you want to start multiple Shadowsocks, make a copy in another directory.=如果想啟動多份，可以另外復制壹份到別的目錄。
+Failed to decode QRCode=無法解析二維碼
+Failed to update registry=無法修改註冊表
+System Proxy On: =系統代理已啟用：
+Running: Port {0}=正在運行：端口 {0}
+Password NOT match=密碼不匹配
+Update subscribe SSR node success=SSR服務器訂閱更新成功
+Update subscribe SSR node failure=SSR服務器訂閱更新失敗
+Success=成功
